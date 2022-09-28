@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>Library</a>
+            <form action="" class="search-form">
+                <input type="search" placeholder="search here..." id="search-box">
+                <!-- <label for="search-box" class="fas fa-search"></label> -->
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#featured">featured</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        </div>
+    </header>
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#reviews" class="fas fa-tags"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+        
+    </nav>
+    <button id="button" class="fa fa-plus">Add Book</button>
+    <div class="card" >
+        <div id="library">
+            
+        </div>
+        
+      </div>
+    <div class="popup">
+        <div class="popup-content">
+            <form class="form">
+                <i class="fa fa-close"></i>
+                <input type="text" placeholder="Book Name" id="title" name="title" required>
+               
+                <input type="text" placeholder="Author Name" id="author" name="author" required>
+                <input type="number" placeholder="Number of Pages" id="pages" name="pages" required>
+                
+                <label>
+                    <input type="checkbox"  id="checkbox"/> I've read it
+                    
+                </label>
+                <input type="submit" class="submit" value="submit" name="submit">
+            </form>
+        </div>
+    </div>
+   
+<script src="main.js"></script>
+</body>
+</html>
